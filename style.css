@@ -26,6 +26,12 @@ body {
     color: #FFFFFF;
 }
 
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 360px 70px 360px;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -38,6 +44,7 @@ body {
     font-size: 64px;
     font-weight: 700;
     color: #F5F5F5;
+    margin-top: 60px 0 24px 0;
 }
 
 .parte-titulo {
@@ -54,15 +61,23 @@ body {
     font-size: 24px;
     font-family: "Poppins", sans-serif;
     background-color: #9747FF;
-    border-radius: 50px;
+    border-radius: 36px;
     width: 340px;
     height: 66px;
     text-decoration: none;
     text-align: center;
     color: #F5F5F5;
     line-height: 66px;
+    margin: 40px auto;
 }
 
 .botaolink:hover {
     background-color: #8233E8;
+}
+
+.imagem-celulares {
+    display: block;
+    width: 792px;
+    height: 446px;
+    margin: 0 auto;
 }
