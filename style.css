@@ -22,7 +22,7 @@
 }
 /* Estilo Desktop */
 body {
-    height: 100vh;
+    height: 100dvh;
     background-color: #0E1014;
     color: #FFFFFF;
 }
@@ -86,14 +86,55 @@ body {
 }
 
 
-@media(max-width: 768px){
-    
+/* ============================
+   TABLET (768px até 1024px)
+============================ */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  body {
+    height: auto;
+  }
+
 .cabecalho {
-    margin:  65px 60px 71px 60px;
-}
+    display: flex;
+    justify-content: space-between;
+  }
 
-.paragrafo1 {
-    width: 648px;
-}
-    }
+  main {
+    padding: 0 48px;
+  }
 
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+  }
+
+  .titulo-principal {
+    font-size: 3.2rem;   /* diminui um pouco */
+    line-height: 1.2;
+    max-width: 600px;
+  }
+
+  .parte-titulo {
+    font-size: 3.2rem;
+  }
+
+  .paragrafo1 {
+    font-size: 1.1rem;
+    max-width: 520px;
+    line-height: 1.6;
+  }
+
+  .botaolink {
+    
+  }
+
+.imagem-celulares {
+    width: 520px;
+    max-width: 100%;
+    margin-top: 24px;
+    align-self: center;
+  }
